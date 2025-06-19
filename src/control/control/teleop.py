@@ -7,10 +7,7 @@ from geometry_msgs.msg import PoseStamped
 from rclpy.duration import Duration
 from interbotix_common_modules.common_robot.robot import robot_shutdown, robot_startup
 from interbotix_xs_modules.xs_robot.arm import InterbotixManipulatorXS
-from math import atan2, asin, degrees
 from omni_msgs.msg import OmniButtonEvent
-from tf_transformations import euler_from_quaternion
-import tf_transformations
 from sensor_msgs.msg import JointState
 
 # Homogeneous transformation matrix from Geomagic to Interbotix
